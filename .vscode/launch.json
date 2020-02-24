@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "gcc.exe build and debug active file",
+            "name": "gcc.exe build and debug main file",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}\\build\\${fileBasenameNoExtension}.exe",
+            "program": "${workspaceFolder}\\main.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
@@ -23,7 +23,8 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "gcc.exe build active file"
+            "preLaunchTask": "gcc.exe build main file",
+            "postDebugTask": "gcc.exe build main file for prod"
         }
     ]
 }
