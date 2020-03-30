@@ -3,6 +3,7 @@
 #include<stdbool.h> // Biblioteca para usar variáveis booleanas.
 #include<string.h> // Biblioteca para manipular strings como contagem de caracteres e comparações.
 #include<locale.h> // Biblioteca para usar e manipular caracteres UTF-8 e manipular datas de variás regiões
+#include<time.h> // Biblioteca para contar o tempo
 
 int main(){
     // Define o idioma da biblioteca locale para manipular os caracteres de diversas regioões
